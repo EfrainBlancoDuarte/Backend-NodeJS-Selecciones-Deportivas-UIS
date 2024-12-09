@@ -1,0 +1,38 @@
+{
+  "name": "backend-nodejs-selecciones-deportivas-uis",
+  "version": "1.0.0",
+  "description": "Backend del sistema creado con NodeJS para gestionar selecciones deportivas de la UIS. Permite administrar jugadores, equipos técnicos, eventos y logros mediante una API REST, con autenticación, base de datos y alta escalabilidad para garantizar una gestión eficiente y segura.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "rest",
+    "sequelize",
+    "mysql",
+    "deportes",
+    "uis"
+  ],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.20.5",
+    "npm": ">=8.19.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mysql2": "^3.3.5",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "sequelize-cli": "^6.6.2"
+  }
+}
